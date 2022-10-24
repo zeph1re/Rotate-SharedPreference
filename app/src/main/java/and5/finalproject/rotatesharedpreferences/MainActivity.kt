@@ -7,12 +7,13 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() , View.OnClickListener {
 
     private lateinit var etNumberOne : EditText
     private lateinit var etNumberTwo : EditText
-    private lateinit var tvResult : Button
+    private lateinit var tvResult : TextView
 
     private val PREF_NAME = "Shared"
     private val KEY_NAME = "ResultCalc"
